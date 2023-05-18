@@ -7,7 +7,7 @@ import Github from '../assets/img/social/placa-do-github.png';
 
 const Home = () => {
     return ( 
-        <section className="flex flex-col justify-center mb-10">
+        <section className="flex flex-col justify-center h-screen">
             <div className="w-full flex flex-col items-center pt-6 px-4 justify-center mb-8">
                 <p className="text-4xl sm:text-5xl md:text-6xl font-semibold ">Olá! Sou</p>
                 <p className="text-7xl sm:text-8xl md:text-9xl font-bold ">Daniel</p>
@@ -19,9 +19,9 @@ const Home = () => {
 
             <div className="flex py-6 justify-center gap-8">
                 <div className="">
-                    <a className="flex flex-col items-center" href="https://www.linkedin.com/in/daniel-de-almeida-farias-495b49143/" rel="noreferrer" target="_blank">
+                    <a className="flex flex-col items-center " href="https://www.linkedin.com/in/daniel-de-almeida-farias-495b49143/" rel="noreferrer" target="_blank">
                         <img className=" h-10 sm:h-16" src={Linkedin} alt="Linkedin" />
-                        <p className=" font-light">Linkedin</p>                  
+                        <p className=" font-light hover:font-normal">Linkedin</p>                  
                     </a>
                 </div>
                 <div>

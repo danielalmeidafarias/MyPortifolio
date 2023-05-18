@@ -19,8 +19,8 @@ const About = () => {
                 <div className="flex flex-col p-2 items-center">
                     <img className="rounded-full w-64 mb-4" src={Photo} alt="Face"/>  
                     <div className="flex flex-col items-start">
-                        <p className="text-lg font-thin text-center">• Daniel de Almeida Farias</p>
-                        <p className="text-lg font-thin text-center">• São José dos Campos-SP</p>
+                        <p className="text-lg font-light text-center">• Daniel de Almeida Farias</p>
+                        <p className="text-lg font-light text-center">• São José dos Campos-SP</p>
                     </div>
                 </div>
                 <div className="p-2 sm:w-80">

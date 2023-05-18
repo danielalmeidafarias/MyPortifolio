@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from '../assets/img/programas.png';
 import DarkModeButton from "./DarkModeButton";
 import HamburgerMenu from "./HamburgerMenu";
 import HoverLine from "./HoverLine";
@@ -8,23 +7,28 @@ import HoverLine from "./HoverLine";
 
 const Header = () => {
     return (  
-        <div className="">
-            <div className="flex justify-between p-8 items-center sm:px-14">
-                <div className="flex items-center gap-1">
-                    <img src={Logo} alt="Logo" className="w-10" />
-                    <h2 className="text-xl sm:text-2xl font-medium font-alt">My Portifolio</h2>
-                </div>
+        <div className=" w-full">
+            <div className="flex justify-between p-8 items-center sm:px-14 bg-zinc-100 fixed w-full  shadow-md shadow-gray-500/20">
+            
+                    
+                <a href="">
+                    <h2 className="text-xl sm:text-3xl font-semibold font-alt hover:text-zinc-900/20 duration-50">{'<'}MyPortifolio{'/>'}</h2>
+                </a>
+
                 <div className="flex items-center">
-                    <ul className="hidden md:flex gap-3 text-xl">
+                    <div className="hidden md:flex gap-3 text-xl  mr-8">
                         <HoverLine value='Home'/>
                         <HoverLine value='Sobre'/>
                         <HoverLine value='Projetos'/>
-                    </ul>
-                    <div>
-                        <DarkModeButton />
                     </div>
+
                     <div>
-                        <HamburgerMenu />
+                        <div>
+                            <DarkModeButton />
+                        </div>
+                        <div>
+                            <HamburgerMenu />
+                        </div>
                     </div>
 
                 </div>

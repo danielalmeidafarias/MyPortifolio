@@ -8,7 +8,7 @@ import Projects from './components/Projects';
 const App = () => {
   return (
     <div>
-      <div className="h-full n w-ful">
+      <div className="h-full n w-ful bg-zinc-200 text-zinc-900">
    
         <Header />
 
