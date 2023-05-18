@@ -1,14 +1,16 @@
 import React from "react";
-import Linkedin from '../assets/img/social/linkedin.png'
-import Github from '../assets/img/social/placa-do-github.png'
-import Gmail from '../assets/img/social/gmail.png'
+import Gmail from '../assets/img/social/gmail.png';
+import Linkedin from '../assets/img/social/linkedin.png';
+import Github from '../assets/img/social/placa-do-github.png';
+
+
 
 const Home = () => {
     return ( 
         <section className="flex flex-col justify-center mb-10">
             <div className="w-full flex flex-col items-center pt-6 px-4 justify-center mb-8">
-                <p className="text-5xl font-semibold sm:text-6xl">Olá! Sou</p>
-                <p className="text-8xl font-bold sm:text-9xl">Daniel</p>
+                <p className="text-4xl sm:text-5xl md:text-6xl font-semibold ">Olá! Sou</p>
+                <p className="text-7xl sm:text-8xl md:text-9xl font-bold ">Daniel</p>
                 <p className="text-center font-light">•Estudante de Análise e Desenvolvimento de Sistemas</p>
                 <p className="text-center font-light">•Desenvolvedor Web</p>
             </div>
@@ -24,7 +26,7 @@ const Home = () => {
                 </div>
                 <div>
                     <a className="flex flex-col items-center" href="https://github.com/danielalmeidafarias?tab=repositories" rel="noreferrer" target="_blank">
-                        <img className="h-10 sm:h-16" src={Github} alt="Github" />
+                        <div className="bg-zinc-100 rounded-2xl"><img className="h-10 sm:h-16" src={Github} alt="Github" /></div>
                         <p className=" font-light" >Github</p>
                     </a>
                 </div>
