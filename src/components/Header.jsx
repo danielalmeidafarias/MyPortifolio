@@ -8,11 +8,11 @@ import HoverLine from "./HoverLine";
 const Header = () => {
     return (  
         <div className=" w-full">
-            <div className="flex justify-between p-8 items-center sm:px-14 bg-zinc-100 fixed w-full  shadow-md shadow-gray-500/20">
+            <div className="flex justify-between p-8 items-center sm:px-14 bg-zinc-100 w-full  shadow-md shadow-gray-500/20 text-zinc-900">
             
                     
                 <a href="">
-                    <h2 className="text-xl sm:text-3xl font-semibold font-alt hover:text-zinc-900/20 duration-50">{'<'}MyPortifolio{'/>'}</h2>
+                    <h2 className="text-xl sm:text-3xl font-semibold font-alt">{'<'}MyPortifolio{'/>'}</h2>
                 </a>
 
                 <div className="flex items-center">
