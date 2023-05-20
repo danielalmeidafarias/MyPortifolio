@@ -7,31 +7,35 @@ import HoverLine from "./HoverLine";
 
 const Header = () => {
     return (  
-        <div className=" w-full">
-            <div className="flex justify-between p-8 items-center sm:px-14 bg-zinc-100 w-full  shadow-md shadow-gray-500/20 text-zinc-900">
+        <div className=" w-[100vw] h-[10vh]">
+            <div className="flex justify-between p-8 items-center sm:px-14 bg-zinc-100 w-full  shadow-md shadow-gray-500/20 text-zinc-900 fixed">
             
                     
                 <a href="">
-                    <h2 className="text-xl sm:text-3xl font-semibold font-alt">{'<'}MyPortifolio{'/>'}</h2>
+                    <h2 className="text-xl sm:text-3xl font-bold font-alt">{'<'}MyPortifolio{'/>'}</h2>
                 </a>
 
                 <div className="flex items-center">
-                    <div className="hidden md:flex gap-3 text-xl  mr-8">
+                    <div className="hidden md:flex gap-3 text-xl pr-5 mr-8">
                         <HoverLine value='Home'/>
                         <HoverLine value='Sobre'/>
                         <HoverLine value='Projetos'/>
+                        
                     </div>
 
-                    <div>
-                        <div>
-                            <DarkModeButton />
-                        </div>
-                        <div>
-                            <HamburgerMenu />
-                        </div>
-                    </div>
-
+     
                 </div>
+
+               
+                <div>
+                    <DarkModeButton />
+                    <HamburgerMenu />
+                </div>
+
+                       
+                   
+
+
             </div>
         </div>
     );

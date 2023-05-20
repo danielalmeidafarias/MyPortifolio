@@ -17,7 +17,7 @@ const HoverLine = (props) => {
         
         <a className='flex flex-col items-center justify-center w-22 overflow-hidden cursor-pointer'>
           <p 
-            className='text-xl hover:font-medium'
+            className='text-xl hover:font-medium text-zinc-900'
             onMouseOver={hoverFunction}
             onMouseLeave={leaveFunction}
           >

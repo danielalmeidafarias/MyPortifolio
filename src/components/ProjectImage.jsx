@@ -18,19 +18,18 @@ const ProjectImage = (props) => {
         href={props.href}
         rel="noreferrer" 
         target="_blank"
-        className="w-96 flex justify-center items-center pt-8 mb-8 cursor-pointer"
+        className=" flex justify-center items-center pt-8 cursor-pointer"
         onMouseOver={overflowHover}  
         onMouseLeave={overflowLeave}   
         >
             <img 
-            className="w-64 sm:w-96 rounded-lg shadow-lg shadow-zinc-500" 
+            className="w-64 sm:w-96 rounded-lg shadow-lg shadow-stone-950/50" 
             src={props.src} 
             alt="To do list" 
             
             />
             <div className="overflow-hidden absolute rounded-lg">
-                <div
-                     
+                <div 
                     className={overflow ? "duration-300 bg-zinc-900/90 w-96 h-[218px] gap-1  flex flex-col justify-center items-centers px-7 " : "translate-y-[218px] gap-1  flex flex-col  duration-300  w-96 h-[218px]  justify-center items-centers px-7 invisible"}>
                     <h1 className="text-white text-2xl">{props.title}</h1>
                     <p className="text-white font-extralight">{props.content}</p>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import About from "./components/About";
 import Header from "./components/Header";
 import Home from './components/Home';
@@ -8,18 +8,29 @@ import Projects from './components/Projects';
 
 
 const App = () => {
+
+  const [theme, setTheme] = useState(true)
+
+  const ThemeSwitch = () => {
+    setTheme(!theme)
+  }
+
   return (
-    <div>
-      <div className={"h-full n w-ful bg-zinc-200 text-zinc-900" }>
-   
-        <Header />
+    <div className="">
+      <div className= "bg-zinc-200 text-zinc-900 w-[300vw] ">
 
-        <Home />
+        
+          <Header />
+  
 
-        <About />
+        <div className="h-full w-[300vw] flex justify-between">
+          <Home />
 
-        <Projects />
+          <About />
 
+          <Projects />
+
+        </div>
 
       </div>
 
