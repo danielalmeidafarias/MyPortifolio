@@ -5,10 +5,10 @@ import HoverLine from "./HoverLine";
 
 
 
-const Header = () => {
+const Header = ({setTheme, theme}) => {
     return (  
-        <div className=" w-[100vw] h-[10vh]">
-            <div className="flex justify-between p-8 items-center sm:px-14 bg-zinc-100 w-full  shadow-md shadow-gray-500/20 text-zinc-900 fixed">
+        <div className=" w-[100vw]">
+            <div className="flex justify-between p-8 items-center sm:px-14 bg-zinc-100 w-full  shadow-md shadow-gray-500/20 text-zinc-900">
             
                     
                 <a href="">
@@ -28,7 +28,7 @@ const Header = () => {
 
                
                 <div>
-                    <DarkModeButton />
+                    <DarkModeButton  setTheme={setTheme} theme={theme}/>
                     <HamburgerMenu />
                 </div>
 

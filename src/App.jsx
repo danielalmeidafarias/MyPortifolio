@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import Home from './components/Home';
 import Projects from './components/Projects';
 
+import createBrowserRouter from 'react-router-dom'
+
 
 
 
@@ -11,26 +13,20 @@ const App = () => {
 
   const [theme, setTheme] = useState(true)
 
-  const ThemeSwitch = () => {
-    setTheme(!theme)
-  }
-
   return (
     <div className="">
-      <div className= "bg-zinc-200 text-zinc-900 w-[300vw] ">
+      <div className= {theme ? "bg-zinc-200 text-zinc-900 h-full" : "bg-zinc-700 text-zinc-300 h-full"}>
 
         
-          <Header />
+          <Header setTheme={setTheme} theme={theme}/>
   
-
-        <div className="h-full w-[300vw] flex justify-between">
           <Home />
 
           <About />
 
           <Projects />
 
-        </div>
+      
 
       </div>
 
