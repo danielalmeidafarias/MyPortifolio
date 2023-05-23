@@ -9,7 +9,7 @@ import Github from '../assets/img/social/placa-do-github.png';
 
 const Home = () => {
     return ( 
-        <section className="flex flex-col justify-center h-screen w-screen">
+        <section className="flex flex-col justify-center h-screen w-screen px-6">
 
             <div className="flex flex-col items-center justify-center">
 
