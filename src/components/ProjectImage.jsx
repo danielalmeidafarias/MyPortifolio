@@ -42,7 +42,7 @@ const ProjectImage = (props) => {
                 </div>
             </a>
             <p 
-            className="font-normal text-md w-full flex sm:hidden justify-end py-1 px-3 cursor-pointer underline" 
+            className="font-normal text-md flex sm:hidden justify-end py-1 px-3 cursor-pointer underline" 
             onClick={clickOverflow}
             >
             Saiba mais

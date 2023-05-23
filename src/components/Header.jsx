@@ -23,9 +23,18 @@ const Header = ({setTheme, theme}) => {
 
                     <div>
                         <div className="hidden md:flex gap-3 text-xl mr-5">
-                            <HoverLine value='Home'/>
-                            <HoverLine value='Sobre'/>
-                            <HoverLine value='Projetos'/>
+                            <HoverLine 
+                            value='Home'
+                            href="#home"
+                            />
+                            <HoverLine 
+                            value='Sobre'
+                            href='#about'
+                            />
+                            <HoverLine 
+                            value='Projetos'
+                            href='#projects'
+                            />
                     </div>
                         <HamburgerMenu />
                     </div>

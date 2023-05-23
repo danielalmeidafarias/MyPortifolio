@@ -9,33 +9,14 @@ const App = () => {
   const [theme, setTheme] = useState(true)
 
   return (
-    <div className="">
+    <div className="scroll-smooth">
       <div className= {theme ? "bg-zinc-200 text-zinc-900 overflow-x-auto" : "bg-zinc-900 text-zinc-100 overflow-x-auto"}>
-
-        
-          <Header setTheme={setTheme} theme={theme}/>
-  
-
-            
-  
-            
-            <Home />  
-
+          <Header setTheme={setTheme} theme={theme}/>    
+            <Home /> 
             <About />
-
             <Projects />
-  
-      
-
       </div>
-
-
-      
-
     </div>
-
-    
-
   );
 }
  

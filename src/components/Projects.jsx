@@ -10,10 +10,10 @@ import ThemeSwitcher from '../assets/img/projects/theme_switcher.png';
 const projects = () => {
     return ( 
 
-    <div className='flex flex-col items-center w-screen pb-12'>
+    <div id='projects' className='flex flex-col items-center w-screen pb-12'>
     
         <h1 className='font-extrabold text-4xl mb-3'>Projetos</h1>
-        <div className='grid grid-cols-1 sm:grid-cols-2 items-center gap-4'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 items-around gap-4'>
             <ProjectImage 
                 title="To Do List" 
                 content="Lista de tarefas criada com JavaScript. As tarefas ficam guardadas no localStorage" 

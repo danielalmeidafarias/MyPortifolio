@@ -22,9 +22,9 @@ const HamburgerMenu = () => {
 
             <div className={active ? 'block absolute top-16.5 right-10 bg-zinc-800 w-[80%] sm:w-96 h-12 p-2 ease-in-out   duration-200 rounded-bl rounded-br mt-3 md:hidden' : ' block absolute top-16 right-10 duration-100 ease-in-out -w-[80%] -h-28 md:hidden'}>
                 <ul className="flex justify-around items-center">
-                    <li className={active ? "cursor-pointer text-zinc-200 font-medium hover:font-semibold text-lg" : 'hidden'} >Home</li>
-                    <li className={active ? "cursor-pointer text-zinc-200 font-medium hover:font-semibold text-lg" : 'hidden'} >Sobre</li>
-                    <li className={active ? "cursor-pointer text-zinc-200 font-medium hover:font-semibold text-lg" : 'hidden'} >Projetos</li>
+                    <li className={active ? "cursor-pointer text-zinc-200 font-medium hover:font-semibold text-lg" : 'hidden'} ><a href="#home">Home</a></li>
+                    <li className={active ? "cursor-pointer text-zinc-200 font-medium hover:font-semibold text-lg" : 'hidden'} ><a href="#about">Sobre</a></li>
+                    <li className={active ? "cursor-pointer text-zinc-200 font-medium hover:font-semibold text-lg" : 'hidden'} ><a href="#projects">Projetos</a></li>
                 </ul>
             </div>
 

@@ -9,9 +9,9 @@ import Github from '../assets/img/social/placa-do-github.png';
 
 const Home = () => {
     return ( 
-        <section className="flex flex-col justify-center h-screen w-screen px-6">
+        <section id="home" className="flex flex-col justify-center h-screen w-screen px-6">
 
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center mb-4">
 
                 
                 <p className="text-3xl sm:text-4xl md:text-6xl font-semibold ">Olá! Sou</p>

@@ -5,7 +5,7 @@ import Tecs from "./Tecs";
 
 const About = () => {
     return ( 
-        <section className="flex flex-col items-center justify-center w-screen px-5 mb-10">
+        <section id="about" className="flex flex-col items-center justify-center w-screen px-5 mb-10 pt-20">
         
          
             <div className="flex flex-col items-center sm:flex-row sm:gap-10">
