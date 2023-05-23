@@ -5,19 +5,25 @@ import Github from '../assets/img/social/placa-do-github.png';
 
 
 
+
+
 const Home = () => {
     return ( 
-        <section className="flex flex-col justify-center">
-            <div className="w-full flex flex-col items-center pt-6 px-4 justify-center">
+        <section className="flex flex-col justify-center h-screen w-screen">
+
+            <div className="flex flex-col items-center justify-center">
+
+                
                 <p className="text-3xl sm:text-4xl md:text-6xl font-semibold ">Olá! Sou</p>
-                <p className="text-7xl sm:text-8xl md:text-9xl font-extrabold ">Daniel</p>
+                <p className="text-[86px] sm:text-8xl md:text-9xl font-extrabold">Daniel</p>
+
                 <p className="text-center font-light text-lg">• Estudante de Análise e Desenvolvimento de Sistemas</p>
                 <p className="text-center font-light text-lg">• Desenvolvedor Web</p>
             </div>
 
             
 
-            <div className="flex py-6 justify-center gap-8">
+            <div className="flex justify-center gap-8">
                 <div className="">
                     <a className="flex flex-col items-center " href="https://www.linkedin.com/in/daniel-de-almeida-farias-495b49143/" rel="noreferrer" target="_blank">
                         <img className=" h-10 sm:h-16" src={Linkedin} alt="Linkedin" />

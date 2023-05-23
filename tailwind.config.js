@@ -21,7 +21,7 @@ module.exports = {
         '8xl': '128px',
         '9xl': '156px',
 
-      }
+      },
     },
 
   },

@@ -11,9 +11,9 @@ const HamburgerMenu = () => {
     }
 
     return ( 
-        <div>
+        <div className="mr-5">
         
-            <div className="hamburger md:hidden flex flex-col gap-1 cursor-pointer" onClick={ToggleMode}>
+            <div className="md:hidden flex flex-col gap-1 cursor-pointer" onClick={ToggleMode}>
                 <div className={active ?  'rounded  duration-200 ease-in w-6 h-1 bg-black rotate-45 translate-y-2' : 'rounded w-6 h-1 bg-black ease-in duration-200'}></div>
                 <div className={active ?  'rounded ease-in w-6 h-1 bg-black rotate-45 duration-200 invisible': ' rounded w-6 h-1 bg-black ease-in duration-200'}></div>
                 <div className={active ?  'rounded  duration-200 ease-in w-6 h-1 bg-black -rotate-45 -translate-y-2' : 'rounded w-6 h-1 bg-black ease-in duration-200'}></div>

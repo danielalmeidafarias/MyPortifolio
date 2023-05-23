@@ -7,33 +7,29 @@ import HoverLine from "./HoverLine";
 
 const Header = ({setTheme, theme}) => {
     return (  
-        <div className=" w-[100vw]">
-            <div className="flex justify-between p-8 items-center sm:px-14 bg-zinc-100 w-full  shadow-md shadow-gray-500/20 text-zinc-900">
+        <div className="">
+            <div className="flex justify-between items-center bg-zinc-100 shadow-md shadow-gray-500/20 text-zinc-900 w-screen fixed px-5 py-2">
             
-                    
-                <a href="">
-                    <h2 className="text-xl sm:text-3xl font-bold font-alt">{'<'}MyPortifolio{'/>'}</h2>
-                </a>
 
-                <div className="flex items-center">
-                    <div className="hidden md:flex gap-3 text-xl pr-5 mr-8">
-                        <HoverLine value='Home'/>
-                        <HoverLine value='Sobre'/>
-                        <HoverLine value='Projetos'/>
-                        
+                <div className="flex items-center gap-4">
+                    <DarkModeButton  setTheme={setTheme} theme={theme}/>
+
+                    <a href="https://danielalmeidafarias-portifolio.netlify.app/">
+                        <div className="border-black border-4 rounded-sm">
+                            <h2 className="text-xl sm:text-3xl font-bold font-alt">{'<'}MyPortifolio{'/>'}</h2>
+                        </div>  
+                    </a>
+                </div>
+
+                    <div>
+                        <div className="hidden md:flex gap-3 text-xl mr-5">
+                            <HoverLine value='Home'/>
+                            <HoverLine value='Sobre'/>
+                            <HoverLine value='Projetos'/>
+                    </div>
+                        <HamburgerMenu />
                     </div>
 
-     
-                </div>
-
-               
-                <div>
-                    <DarkModeButton  setTheme={setTheme} theme={theme}/>
-                    <HamburgerMenu />
-                </div>
-
-                       
-                   
 
 
             </div>
