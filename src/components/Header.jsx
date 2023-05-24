@@ -8,7 +8,7 @@ import HoverLine from "./HoverLine";
 const Header = ({setTheme, theme}) => {
     return (  
         <div className="">
-            <div className="flex justify-between items-center bg-zinc-100 shadow-md shadow-gray-500/20 text-zinc-900 w-screen fixed px-5 py-2">
+            <div className="flex justify-between items-center bg-zinc-100 shadow-md shadow-gray-500/20 text-zinc-900 w-screen px-5 py-2 fixed">
             
 
                 <div className="flex items-center gap-4">

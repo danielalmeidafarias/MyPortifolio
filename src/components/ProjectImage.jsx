@@ -16,7 +16,7 @@ const ProjectImage = (props) => {
     }
     return ( 
 
-        <div>
+        <div className="">
             <a 
             href={props.href}
             rel="noreferrer" 
