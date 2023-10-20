@@ -17,7 +17,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="sm:w-80">
-                    <p className="text-lg font-normal text-center leading-relaxed mb-10">Tenho 20 anos, sou um jovem curioso e adoro desafios, eles me movimentam. Estou em busca de minha primeira oportunidade na área da tecnologia. Quero aprender muito e criar uma carreira promissora junto de uma equipe de Desenvolvimento.</p>
+                    <p className="text-lg font-normal text-center leading-relaxed mb-10">Tenho 21 anos, sou um jovem curioso e adoro desafios, eles me movimentam. Estou em busca de minha primeira oportunidade na área da tecnologia. Quero aprender muito e criar uma carreira promissora junto de uma equipe de Desenvolvimento.</p>
                 </div>
             </div>
 

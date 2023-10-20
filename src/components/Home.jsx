@@ -18,7 +18,7 @@ const Home = () => {
                 <p className="text-[86px] sm:text-8xl md:text-9xl font-extrabold">Daniel</p>
 
                 <p className="text-center font-light text-lg">• Estudante de Análise e Desenvolvimento de Sistemas</p>
-                <p className="text-center font-light text-lg">• Desenvolvedor Web</p>
+                <p className="text-center font-light text-lg">• Desenvolvedor Full-Stack</p>
             </div>
 
             
