@@ -1,16 +1,15 @@
 import React from "react";
 import ProjectImage from "./ProjectImage";
 
-import ToDoList from "../assets/img/projects/js_to_do_list.png";
-import ThemeSwitcher from "../assets/img/projects/theme_switcher.png";
 import CutOptimizer from "../assets/img/projects/cutoptimizer.png";
-import Rocketflix from "../assets/img/projects/rocketflix.png";
-import NetflixClone from "../assets/img/projects/netflixclone.png";
 import CasaVerde from "../assets/img/projects/CasaVerde.png";
+import MoviesApi from "../assets/img/projects/moviesapi.png";
+import MarketPlace from "../assets/img/projects/marketplace.png";
+
 
 const projects = () => {
   return (
-    <div id="projects" className="flex flex-col items-center w-screen pb-12">
+    <div id="projects" className="flex flex-col w-screen pb-12 h-auto items-center">
       <h1 className="font-extrabold text-4xl mb-3 w-full text-center">
         Principais Projetos
       </h1>
@@ -30,19 +29,19 @@ const projects = () => {
           href="https://cutoptimizer.netlify.app/"
         />
         <ProjectImage
-          title="Api Rocketflix"
-          content="Api que mapea os id's de filmes do banco de dados TMDB e devolver um filme aleatório!"
-          src={Rocketflix}
-          github="https://github.com/danielalmeidafarias/Rocketflix"
-          href="https://github.com/danielalmeidafarias/Rocketflix"
+          title="MarketPlace API"
+          content="Api de marketplace, estilo mercado livre. Criado com Nest.js e integração com Pagar.me"
+          src={MarketPlace}
+          github="https://github.com/danielalmeidafarias/marketplace_api"
+          href="https://apimarketplace-danielalmeidafarias-projects.vercel.app/api/api"
         />
 
         <ProjectImage
-          title="Netflix Clone"
-          content="Clone fullstack do netflix utilizando Next.js, MongoDb e NextAuth 2.0"
-          src={NetflixClone}
-          github="https://github.com/danielalmeidafarias/Netflix-clone"
-          href="https://github.com/danielalmeidafarias/Netflix-clone"
+          title="Movies API"
+          content="Api para cadastro de filmes. Criada com Nest.js, Redis e Docker"
+          src={MoviesApi}
+          github="https://github.com/danielalmeidafarias/movies_api"
+          href="https://vercelapimovies-danielalmeidafarias-projects.vercel.app/api/api"
         />
       </div>
     </div>
