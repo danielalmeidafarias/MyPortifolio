@@ -19,14 +19,14 @@ const projects = () => {
           content="E-commerce de plantas criado com React utilizando e Express. Possui função de login com Google Oauth2, assinatura de Newsletter com nodemailer e processamento de pedidos e pagamento com Stripe."
           src={CasaVerde}
           github="https://github.com/danielalmeidafarias/api-casa-verde"
-          href="https://github.com/danielalmeidafarias/casa-verde"
+          href="https://casa-verde-lovat.vercel.app"
         />
         <ProjectImage
           title="CutOptimizer"
           content="Aplicação fullstack desenvolvida para otimização de cortes em marcenaria. Possui versão mobile (confira o repositório)"
           src={CutOptimizer}
           github="https://github.com/danielalmeidafarias/cutOptimizer/tree/main"
-          href="https://cutoptimizer.netlify.app/"
+          href="https://cut-optimizer-one.vercel.app"
         />
         <ProjectImage
           title="MarketPlace API"
